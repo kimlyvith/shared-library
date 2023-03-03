@@ -5,11 +5,10 @@ class clsCore(){
         println("This is how methods work in groovy");
         println("This is an example of a simple method");
     } 
-        
-    static void main(String[] args) {
-        DisplayName();
-    } 
+   
 }
+
+return new clsCore()
 
 // class Person{
 //     int age = 20;
