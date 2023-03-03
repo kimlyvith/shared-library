@@ -1,6 +1,6 @@
 package com.kimly
 
-class core{
+class clsCore{
     public def testMe(){
         print("This is from me.")
     }
