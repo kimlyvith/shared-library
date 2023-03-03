@@ -1,15 +1,16 @@
 package com.kimly
 
 class clsCore{
-    public def testMe(){
-        print("This is from me.")
-    }
-    public def testYou(){
-        print("This is from you.")
-    }
+    
 }
 
-return clsCore();
+def testMe(){
+    print("This is from me.")
+}
+def testYou(){
+    print("This is from you.")
+}
+return this
 
 // class Person{
 //     int age = 20;
