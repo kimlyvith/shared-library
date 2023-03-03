@@ -6,7 +6,7 @@ class clsCore{
         println("This is an example of a simple method");
     } 
 }
-def instance_obj = new clsCore()
+clsCore instance_obj = new clsCore()
 
 return instance_obj
 
