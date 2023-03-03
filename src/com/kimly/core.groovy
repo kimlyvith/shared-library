@@ -8,7 +8,7 @@ class clsCore{
    
 }
 
-return new clsCore()
+return this
 
 // class Person{
 //     int age = 20;
