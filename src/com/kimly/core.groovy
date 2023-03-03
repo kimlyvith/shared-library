@@ -1,7 +1,9 @@
 package com.kimly
 
 class clsCore{
-    
+    def testMe(){
+        print("This is from me.")
+    }
 }
 
 def displayName() {
