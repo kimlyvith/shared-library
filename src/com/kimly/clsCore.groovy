@@ -9,7 +9,7 @@ class clsCore{
     }
 }
 
-return core();
+return clsCore();
 
 // class Person{
 //     int age = 20;
