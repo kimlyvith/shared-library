@@ -1,14 +1,14 @@
 package com.kimly
 
 class clsCore{
-    def displayName() {
+    
+}
+
+def displayName() {
         println("This is how methods work in groovy");
         println("This is an example of a simple method");
     } 
-}
-clsCore instance_obj = new clsCore()
-
-return instance_obj
+return this
 
 // class Person{
 //     int age = 20;
