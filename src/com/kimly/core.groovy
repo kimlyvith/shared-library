@@ -1,6 +1,6 @@
 package com.kimly
 
-class clsCore{
+class core{
     public def testMe(){
         print("This is from me.")
     }
@@ -9,7 +9,7 @@ class clsCore{
     }
 }
 
-return clsCore();
+return core();
 
 // class Person{
 //     int age = 20;
