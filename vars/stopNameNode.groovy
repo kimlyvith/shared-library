@@ -3,5 +3,4 @@ def call(Map config = [:]){
     println(">>>>>>." +scriptcontents)
     writeFile file: "${config.name}", text: scriptcontents
     sh "chmod a+x ./${config.name}"
-    sh "ssh ${user}@${ips} ./${config.name}"
 }
