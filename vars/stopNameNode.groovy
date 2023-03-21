@@ -1,4 +1,7 @@
 def call(Map config = [:]){
-    loadMyScript(name: 'stop-dfs.sh')
-    sh "./stop-dfs.sh"
+    def scriptcontents = libraryResource "com/kimly/script/${config.name}";
+    println(">>>>>>." +scriptcontents)
+    writeFile file: "${config.name}", text: scriptcontents
+    sh "chmod a+x ./${config.name}"
+    sh "./${config.name}"
 }
